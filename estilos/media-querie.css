@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: linear-gradient(to right, #F3D0B2, #EFC2A1);
+    }
+    
+    .login {
+        width: 90vw;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+    }
+
+    .imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 993px) {
+    
+    body {
+        background: url(../img/praia.jpg) no-repeat left bottom;
+        background-size:cover ;
+    }
+
+    .login {
+        width: 990px;
+    }
+
+    .imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+}
